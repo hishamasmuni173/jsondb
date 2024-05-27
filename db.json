@@ -1,57 +1,188 @@
 {
-  "todos": [
+  "activities": [
     {
       "id": 1,
-      "userId": 1,
-      "title": "Prepare proposal for the new project",
-      "completed": false
+      "title": "Group project team working",
+      "formId": 1,
+      "evaluatorId": 1
     },
     {
       "id": 2,
-      "userId": 1,
-      "title": "Replace light bulb",
-      "completed": false
+      "title": "Exercise Pair Programming",
+      "formId": 2,
+      "evaluatorId": 1
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "activityId": 1,
+      "memberId": 1,
+      "points": [
+        4,
+        2,
+        3,
+        2,
+        4
+      ]
+    },
+    {
+      "id": 2,
+      "activityId": 1,
+      "memberId": 2,
+      "points": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
     },
     {
       "id": 3,
-      "userId": 1,
-      "title": "Buy Flutter eBook",
-      "completed": false
+      "activityId": 1,
+      "memberId": 3,
+      "points": [
+        2,
+        1,
+        3,
+        2,
+        1
+      ]
     },
     {
       "id": 4,
-      "userId": 1,
-      "title": "Subscribe to Fibre optic internet service",
-      "completed": false
+      "activityId": 1,
+      "memberId": 4,
+      "points": [
+        3,
+        3,
+        2,
+        1,
+        1
+      ]
     },
     {
       "id": 5,
-      "userId": 1,
-      "title": "Setup online meeting room",
-      "completed": true
+      "activityId": 2,
+      "memberId": 1,
+      "points": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "activityId": 2,
+      "memberId": 4,
+      "points": [
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "id": 1,
+      "scales": [
+        {
+          "title": "Excellent",
+          "value": 4
+        },
+        {
+          "title": "Good",
+          "value": 3
+        },
+        {
+          "title": "Fair",
+          "value": 2
+        },
+        {
+          "title": "Poor",
+          "value": 1
+        },
+        {
+          "title": "Not at all",
+          "value": 0
+        }
+      ],
+      "criteria": [
+        {
+          "title": "Interaction",
+          "description": "Degree of interaction with other members"
+        },
+        {
+          "title": "Commitment",
+          "description": "Degree of participation to the project execution"
+        },
+        {
+          "title": "Effort",
+          "description": "The amount of effort and work contributed to the project outcome"
+        },
+        {
+          "title": "Adaptability",
+          "description": "Ease of adapting to the group"
+        },
+        {
+          "title": "Personality",
+          "description": "Degree of compromisation between group members"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "scales": [
+        {
+          "title": "Good",
+          "value": 2
+        },
+        {
+          "title": "Poor",
+          "value": 1
+        },
+        {
+          "title": "Not at all",
+          "value": 0
+        }
+      ],
+      "criteria": [
+        {
+          "title": "Navigator",
+          "description": "How good at playing the navigator role"
+        },
+        {
+          "title": "Driver",
+          "description": "How good at playing the driver role"
+        },
+        {
+          "title": "Personality",
+          "description": "Degree of compromisation to the partner"
+        }
+      ]
     }
   ],
   "users": [
     {
       "id": 1,
-      "name": "Jessica Graham",
-      "email": "sincere@april.biz",
-      "password": "pwd123",
-      "avatar": "https://randomuser.me/api/portraits/thumb/women/4.jpg"
+      "shortName": "Abdullah",
+      "fullName": "Abdullah Tajuddin"
     },
     {
       "id": 2,
-      "name": "Ervin Howell",
-      "email": "shanna@melissa.tv",
-      "password": "helloworld",
-      "avatar": "https://randomuser.me/api/portraits/thumb/men/86.jpg"
+      "shortName": "Aisyah",
+      "fullName": "Siti Nur Aisyah Binti Ahmad Kamal"
     },
     {
       "id": 3,
-      "name": "Caroline Bauch",
-      "email": "nathan@yesenia.net",
-      "password": "samantha",
-      "avatar": "https://randomuser.me/api/portraits/thumb/women/25.jpg"
+      "shortName": "Jailani",
+      "fullName": "Ahmad Jailani Bin Saad"
+    },
+    {
+      "id": 4,
+      "shortName": "Amalina",
+      "fullName": "Amalina Dasuki"
     }
   ]
 }
